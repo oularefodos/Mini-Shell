@@ -4,20 +4,24 @@
 Embark on a journey into systems programming by crafting a miniature shell in C. Design and implement a simplified shell that interprets user commands, initiates processes, and orchestrates their execution.
 
 ## Prerequisites
+
 Before using the Mini-Shell project, ensure that your environment meets the following prerequisites. The project relies on various functions for its functionality:
-   readline: For reading input lines with editing capabilities.
-   rl_clear_history, rl_on_new_line, rl_replace_line, rl_redisplay, add_history: Functions for readline library to manage command history and line editing.
-   Standard I/O functions: printf, malloc, free, write.
-   File system functions: access, open, read, close, unlink.
-   Process management functions: fork, wait, waitpid, wait3, wait4, execve, kill, exit.
-   Signal handling functions: signal, sigaction, sigemptyset, sigaddset.
-   Directory functions: opendir, readdir, closedir.
-   File status functions: stat, lstat, fstat.
-   File descriptor functions: dup, dup2, pipe.
-   Terminal control functions: isatty, ttyname, ttyslot, ioctl, tcsetattr, tcgetattr.
-   Environment functions: getenv.
-   Terminal capabilities functions: tgetent, tgetflag, tgetnum, tgetstr, tgoto, tputs.
-   Error handling functions: strerror, perror.
+
+- `readline`: For reading input lines with editing capabilities.
+- `rl_clear_history`, `rl_on_new_line`, `rl_replace_line`, `rl_redisplay`, `add_history`: Functions for readline library to manage command history and line editing.
+- Standard I/O functions: `printf`, `malloc`, `free`, `write`.
+- File system functions: `access`, `open`, `read`, `close`, `unlink`.
+- Process management functions: `fork`, `wait`, `waitpid`, `wait3`, `wait4`, `execve`, `kill`, `exit`.
+- Signal handling functions: `signal`, `sigaction`, `sigemptyset`, `sigaddset`.
+- Directory functions: `opendir`, `readdir`, `closedir`.
+- File status functions: `stat`, `lstat`, `fstat`.
+- File descriptor functions: `dup`, `dup2`, `pipe`.
+- Terminal control functions: `isatty`, `ttyname`, `ttyslot`, `ioctl`, `tcsetattr`, `tcgetattr`.
+- Environment functions: `getenv`.
+- Terminal capabilities functions: `tgetent`, `tgetflag`, `tgetnum`, `tgetstr`, `tgoto`, `tputs`.
+- Error handling functions: `strerror`, `perror`.
+
+Ensure that these functions are available and properly configured in your environment before compiling and running the Mini-Shell project.
 
 
 ## Quick Start
