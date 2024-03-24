@@ -3,6 +3,17 @@
 ## About The Project
 Embark on a journey into systems programming by crafting a miniature shell in C. Design and implement a simplified shell that interprets user commands, initiates processes, and orchestrates their execution.
 
+## Algorithm Used: Abstract Syntax Tree (AST)
+
+In the Mini-Shell project, an Abstract Syntax Tree (AST) algorithm is employed to parse and analyze user commands. The AST represents the syntactic structure of commands entered by the user, facilitating their interpretation and execution within the shell environment.
+
+### AST Features:
+- **Parsing:** The AST algorithm parses user input to generate a hierarchical representation of the command structure, capturing relationships between components such as commands, arguments, and redirections.
+- **Analysis:** Once parsed, the AST enables the analysis of command semantics and the extraction of relevant information needed for execution.
+- **Execution:** The AST facilitates the execution of user commands by providing a structured representation that guides the interaction with the underlying operating system.
+
+By leveraging the AST algorithm, the Mini-Shell project achieves efficient command interpretation and execution, enhancing the user experience and shell functionality.
+
 ## Prerequisites
 
 Before using the Mini-Shell project, ensure that your environment meets the following prerequisites. The project relies on various functions for its functionality:
@@ -22,18 +33,6 @@ Before using the Mini-Shell project, ensure that your environment meets the foll
 - Error handling functions: `strerror`, `perror`.
 
 Ensure that these functions are available and properly configured in your environment before compiling and running the Mini-Shell project.
-
-## Algorithm Used: Abstract Syntax Tree (AST)
-
-In the Mini-Shell project, an Abstract Syntax Tree (AST) algorithm is employed to parse and analyze user commands. The AST represents the syntactic structure of commands entered by the user, facilitating their interpretation and execution within the shell environment.
-
-### AST Features:
-- **Parsing:** The AST algorithm parses user input to generate a hierarchical representation of the command structure, capturing relationships between components such as commands, arguments, and redirections.
-- **Analysis:** Once parsed, the AST enables the analysis of command semantics and the extraction of relevant information needed for execution.
-- **Execution:** The AST facilitates the execution of user commands by providing a structured representation that guides the interaction with the underlying operating system.
-
-By leveraging the AST algorithm, the Mini-Shell project achieves efficient command interpretation and execution, enhancing the user experience and shell functionality.
-
 
 ## Quick Start
 
