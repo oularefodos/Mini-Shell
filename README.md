@@ -8,4 +8,4 @@ Embark on a journey into systems programming by crafting a miniature shell in C.
 1. **Clone the Repository**
    ```sh
    git clone git@github.com:oularefodos/Mini-Shell.git
-   ``
+   
