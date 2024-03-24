@@ -1,26 +1,11 @@
-# MINI-SHELL
+# Mini-Shell
 
 ## About The Project
-Delve into systems programming by creating a mini shell in C. Design and implement a simplified shell that
-interprets user commands, launches processes, and manages their execution.
+Embark on a journey into systems programming by crafting a miniature shell in C. Design and implement a simplified shell that interprets user commands, initiates processes, and orchestrates their execution.
 
-# Quick start
+## Quick Start
 
-
-## Clone 
-1. Clone The repo
-  ``
-  git clone git@github.com:oularefodos/Mini-Shell.git
-  `` 
-2. Go in the folder Mini-Shell
-   ``
-   cd Mini-Shell
-   ``
-3. Run the project
-   ``
-   make
-   ``
-4. Lunch the program
-   ``
-   ./minishell
+1. **Clone the Repository**
+   ```sh
+   git clone git@github.com:oularefodos/Mini-Shell.git
    ``
